@@ -56,17 +56,15 @@ export function Sidebar({
       {/* Step Indicator */}
       <div className="flex items-center gap-3 mb-8">
         <div
-          className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium ${
-            step >= 1 ? "bg-teal-600 text-white" : "bg-stone-100 text-stone-500"
-          }`}
+          className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium ${step >= 1 ? "bg-teal-600 text-white" : "bg-stone-100 text-stone-500"
+            }`}
         >
           1
         </div>
         <div className="flex-1 h-px bg-stone-200" />
         <div
-          className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium ${
-            step >= 2 ? "bg-teal-600 text-white" : "bg-stone-100 text-stone-500"
-          }`}
+          className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium ${step >= 2 ? "bg-teal-600 text-white" : "bg-stone-100 text-stone-500"
+            }`}
         >
           2
         </div>
@@ -85,10 +83,15 @@ export function Sidebar({
             className="w-full h-32 lg:h-40 p-4 bg-white border border-stone-200 rounded-lg text-stone-900 placeholder:text-stone-400 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all shadow-sm"
             disabled={step === 2}
           />
+          <p className="text-xs text-stone-400 mt-1">
+            {idea.trim().length < 30
+              ? `${30 - idea.trim().length} more characters needed`
+              : "✓ Ready to analyze"}
+          </p>
           {step === 1 && (
             <Button
               onClick={onAnalyzeIdea}
-              disabled={!idea.trim() || isLoadingQuestions}
+              disabled={idea.trim().length < 30 || isLoadingQuestions}
               className="w-full mt-4 bg-teal-600 hover:bg-teal-700 text-white"
             >
               {isLoadingQuestions ? (
@@ -148,7 +151,6 @@ export function Sidebar({
               </div>
             ))}
 
-            {/* Generate button — hidden once plan is done */}
             {!planDone && (
               <Button
                 onClick={onGeneratePlan}
@@ -169,7 +171,6 @@ export function Sidebar({
               </Button>
             )}
 
-            {/* Start Over — shown once plan is done */}
             {planDone && (
               <button
                 onClick={onStartOver}
