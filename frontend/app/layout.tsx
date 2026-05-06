@@ -43,6 +43,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} bg-background`}>
       <body className="font-sans antialiased">
+        <div className="fixed inset-0 pointer-events-none z-0" style={{
+          backgroundImage: "radial-gradient(circle, #0F172A 1px, transparent 1px)",
+          backgroundSize: "24px 24px",
+          opacity: 0.08,
+        }} />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

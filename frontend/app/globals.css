@@ -5,7 +5,7 @@
 
 /* Light premium theme for Founder Build Coach - Warm, airy aesthetic */
 :root {
-  --background: #fafafa;
+  --background: #F5F4F0;
   --foreground: #1a1a1a;
   --card: #ffffff;
   --card-foreground: #1a1a1a;
@@ -88,4 +88,9 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes scanline {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100px; }
 }
