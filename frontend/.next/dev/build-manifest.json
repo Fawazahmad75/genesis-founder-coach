@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/0h2v_next_dist_compiled_104mkwe._.js",
+      "static/chunks/0h2v_next_dist_shared_lib_0_iv-j1._.js",
+      "static/chunks/0h2v_next_dist_client_0ciqro~._.js",
+      "static/chunks/0h2v_next_dist_0--tjat._.js",
+      "static/chunks/0h2v_next_app_030lzma.js",
+      "static/chunks/[next]_entry_page-loader_ts_0pm4.2q._.js",
+      "static/chunks/0h2v_react-dom_065n-4s._.js",
+      "static/chunks/0h2v_0mlwvov._.js",
+      "static/chunks/[root-of-the-server]__0prk4qf._.js",
+      "static/chunks/Desktop_genesis-founder-coach_frontend_pages__app_07xvfw~._.js",
+      "static/chunks/turbopack-Desktop_genesis-founder-coach_frontend_pages__app_069m-0t._.js"
+    ],
+    "/_error": [
+      "static/chunks/0h2v_next_dist_compiled_104mkwe._.js",
+      "static/chunks/0h2v_next_dist_shared_lib_05.aisr._.js",
+      "static/chunks/0h2v_next_dist_client_0ciqro~._.js",
+      "static/chunks/0h2v_next_dist_0sjjoz0._.js",
+      "static/chunks/[next]_entry_page-loader_ts_09w40xu._.js",
+      "static/chunks/0h2v_react-dom_065n-4s._.js",
+      "static/chunks/0h2v_0mlwvov._.js",
+      "static/chunks/[root-of-the-server]__088rsod._.js",
+      "static/chunks/Desktop_genesis-founder-coach_frontend_pages__error_07xvfw~._.js",
+      "static/chunks/turbopack-Desktop_genesis-founder-coach_frontend_pages__error_0m~hvq8._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0h2v_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0xmopuo._.js",
+    "static/chunks/0h2v_next_dist_compiled_next-devtools_index_0t~l9bw.js",
+    "static/chunks/0h2v_next_dist_compiled_react-dom_0b2bb48._.js",
+    "static/chunks/0h2v_next_dist_compiled_react-server-dom-turbopack_08jvbxp._.js",
+    "static/chunks/0h2v_next_dist_compiled_0xlck3k._.js",
+    "static/chunks/0h2v_next_dist_client_0ziatvu._.js",
+    "static/chunks/0h2v_next_dist_0bb-65w._.js",
+    "static/chunks/0h2v_@swc_helpers_cjs_0gagkxy._.js",
+    "static/chunks/Desktop_genesis-founder-coach_frontend_0rqeker._.js",
+    "static/chunks/turbopack-Desktop_genesis-founder-coach_frontend_018hsyj._.js"
+  ]
+}
